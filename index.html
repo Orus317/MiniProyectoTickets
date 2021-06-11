@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tickets</title>
+</head>
+<body>
+    <h1>TiketMaster</h1>
+    <form action="">
+        <label for="">
+            Nombre
+            <input type="text" name="" id="nombre" required>
+        </label>
+        <label for="">
+            Apellido
+            <input type="text" name="" id="apellido" required>
+        </label>
+        <label for="">
+            DNI
+            <input type="number" name="" id="dni" required>
+        </label>
+        <label for="">
+            Ciudad de embarque
+            <select name="" id="CiudadO">
+                <option value="Arequipa">Arequipa</option>
+                <option value="Lima">Lima</option>
+                <option value="Piura">Piura</option>
+            </select>
+        </label>
+        <label for="">
+            Ciudad de desembarque
+            <select name="" id="ciudadF">
+                <option value="Arequipa">Arequipa</option>
+                <option value="Lima">Lima</option>
+                <option value="Piura">Piura</option>
+            </select>
+        </label>
+        <label for="">
+            <input type="date" name="" id="pruebaFecha" min="2021-01-01" max="2021-12-12" required>
+        </label>
+        <label for="">
+            Cantidad de asientos
+            <input type="number" id="cantidadAsientos" required>
+        </label>
+        <label for="">
+            <input type="button" value="Consultar" id="consultar">
+        </label>
+    </form>
+    <br>
+    <div id="voucher">
+        
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
