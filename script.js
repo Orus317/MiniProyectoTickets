@@ -32,6 +32,7 @@ let cajaVoucher = document.getElementById("voucher")
 function probarBoton(){
     componerNombre()
     componerTicket()
+    posicionesCompradas = []
     guardarPosiciones()
     distinguirCiudades()
     nombreCompleto = []
